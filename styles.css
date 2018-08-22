@@ -1,0 +1,28 @@
+body {
+    background-image: url(./images/restaurant-background.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-left:500px;
+    margin-right:500px;
+    margin-bottom:500px
+    border:5px solid white;
+}
+.logo {
+    display:flex;
+    justify-content: center;
+}
+.menu {
+    display:flex;
+    justify-content:space-around    ;
+    align-content: center;
+    color:white;
+    background-color:black
+    opacity:1;
+}
+.photos {
+    display:flex;
+    flex:0.4;
+    flex-direction:column;
+    justify-content:space-around;
+}
